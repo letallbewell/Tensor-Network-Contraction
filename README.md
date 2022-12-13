@@ -15,7 +15,7 @@ The follwong tensor network gives the partition function for the Ising Hamiltoni
 A naive contraction would look like:
 ![Example Contraction](https://user-images.githubusercontent.com/43025445/195797826-6b87c70a-561a-4980-a3cb-b8371fe2e413.jpg)
 
-We can see that the code works by checking the thermodynamic variables (these results are exact)
+We can see that the code works by checking the thermodynamic variables (these results are exact).
 
 ![Free energy](https://user-images.githubusercontent.com/43025445/195797978-b33029b5-ccb2-4761-9436-3c5bafd11698.jpg)
 ![TN E and C](https://user-images.githubusercontent.com/43025445/195798010-88da46f3-b666-4433-9df9-e355ce31c10a.jpg)
