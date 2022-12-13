@@ -3,7 +3,7 @@ Program to contract arbitrary tensor networks. Currently the contraction path ha
 
 ## Introduction 
 
-Tensor Networks are a new computational tool that finds applications in quantum many body physics and machine learning. Among many of its applications it allows to efficiently parametrize high dimensional Hilbert spaces of quantum sytems of interests and also provides a computationally tractable representation of partition functions involving lattice Hamiltoniancs (see for [Ising Model](https://github.com/letallbewell/Ising_Model) for an application to the Ising Hamiltonian using the Google's Tensor Network library).
+Tensor Networks are a new computational tool that finds applications in quantum many body physics and machine learning. Among many of its applications it allows to efficiently parametrize high dimensional Hilbert spaces of quantum sytems of interests and also provides a computationally tractable representation of partition functions involving lattice Hamiltoniancs (see [Ising Model](https://github.com/letallbewell/Ising_Model) for an application to the Ising Hamiltonian using the Google's Tensor Network library).
 
 The network can be thought of a graph represntation of a complicated array contraction, like a long series of matrix miltiplication. Since contraction is associative, the order does not make a differnece to the answer but the computational cost hevily relies on the order. Finding the optimal order is a discrete optimization problem(tough) and renormalization approaches can iteratively simplify the graph to give approximate answers.
 
